@@ -57,9 +57,6 @@ app.use("/api", adminRouter, otpRouter, updateRouter, changepassRouter
     offerRouter, ShowimagesRouter, DeadRouter, LocationRouter, compSearchRouter
 );
 
-app.get("/", (req, res) => {
-    res.send("hello team plexigenius")
-})
 
 
 app.listen(port, () => {
